@@ -2,7 +2,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
- 
+
 class MovieCard extends React.Component {
   render() {
     return (
@@ -14,7 +14,7 @@ class MovieCard extends React.Component {
     );
   }
 }
- 
+
 ReactDOM.render(
   <MovieCard />,
   document.getElementById('root')
